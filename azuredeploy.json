@@ -70,8 +70,7 @@
     "ipConfigName": "[concat(variables('vmssuniqueName'), 'ipconfig')]",
     "httpProbeName": "httpProbe",
     "httpsProbeName": "httpsProbe",
-    "quote": "'",
-    "scaleSetName": "cvoscaleset"
+    "quote": "'"
 },
   "resources": [
     {
