@@ -1,0 +1,21 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "vmssName": {
+            "value": "cvovms"
+        },
+        "adminUsername": {
+            "value": "rutger"
+        },
+        "capacity": {
+            "value": 2
+        },
+        "adminPassword": {
+            "value": "Localboss01!"
+        },
+        "sourceImageVhdUri": {
+            "value": "https://imagestoragecvo.blob.core.windows.net/system/Microsoft.Compute/Images/imagescvo/packercvo-osDisk.705e7d7f-6585-4c3b-accf-7de6ea3844dc.vhd"
+        }
+    }
+}
